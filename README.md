@@ -1,6 +1,6 @@
 # PaperTrailLog
 
-[![CI Status](http://img.shields.io/travis/Rafael da Silva Ferreira/PaperTrailLog.svg?style=flat)](https://travis-ci.org/Rafael da Silva Ferreira/PaperTrailLog)
+[![CI Status](https://api.travis-ci.org/Swift-Yah/PaperTrailLog.svg?branch=master)](https://travis-ci.org/Swift-Yah/PaperTrailLog)
 [![Version](https://img.shields.io/cocoapods/v/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
 [![License](https://img.shields.io/cocoapods/l/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
 [![Platform](https://img.shields.io/cocoapods/p/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
