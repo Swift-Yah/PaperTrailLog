@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'PaperTrailLog'
   s.version          = '0.1.0'
-  s.summary          = 'A version of Logger for PaperTrail service entirely writed in Swift.'
+  s.summary          = 'An iOS Logger for PaperTrail service entirely writed in Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
