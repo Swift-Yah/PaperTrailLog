@@ -4,6 +4,7 @@
 [![Version](https://img.shields.io/cocoapods/v/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
 [![License](https://img.shields.io/cocoapods/l/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
 [![Platform](https://img.shields.io/cocoapods/p/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
+[![ReviewNinja](https://app.review.ninja/60267947/badge)](https://app.review.ninja/Swift-Yah/PaperTrailLog)
 
 ## Example
 
