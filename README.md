@@ -1,0 +1,29 @@
+# PaperTrailLog
+
+[![CI Status](http://img.shields.io/travis/Rafael da Silva Ferreira/PaperTrailLog.svg?style=flat)](https://travis-ci.org/Rafael da Silva Ferreira/PaperTrailLog)
+[![Version](https://img.shields.io/cocoapods/v/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
+[![License](https://img.shields.io/cocoapods/l/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
+[![Platform](https://img.shields.io/cocoapods/p/PaperTrailLog.svg?style=flat)](http://cocoapods.org/pods/PaperTrailLog)
+
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+## Requirements
+
+## Installation
+
+PaperTrailLog is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "PaperTrailLog"
+```
+
+## Author
+
+Rafael da Silva Ferreira, rafael@swift-yah.io
+
+## License
+
+PaperTrailLog is available under the MIT license. See the LICENSE file for more info.
