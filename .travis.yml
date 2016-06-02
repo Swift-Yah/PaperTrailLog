@@ -1,16 +1,14 @@
-# references:
-# * http://www.objc.io/issue-6/travis-ci.html
-# * https://github.com/supermarin/xcpretty#usage
-
 osx_image: xcode7.3
 language: objective-c
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
-  - gem install cocoapods
-  - pod install --project-directory=Example
+- gem install cocoapods
+- pod install --project-directory=Example
 script:
-  - set -o pipefail && xcodebuild test -workspace Example/PaperTrailLog.xcworkspace -scheme PaperTrailLog-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
-  - pod lib lint
+- set -o pipefail && xcodebuild test -workspace Example/PaperTrailLog.xcworkspace
+  -scheme PaperTrailLog-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+- pod lib lint
 notifications:
-  slack: swift-yah:H6s3LoiOO0pjJOjoDRuK4xBV
+  slack:
+    secure: Rxji8/cIaDoHJSQKKf1Ayh5bPxlTYxPpk2F380H0qK/yblOa4Mtgv9ptp3dqhTi+WiX/MQLUV4gYqgjXdDa+BN9+GhLq6X7QsOUL6eJfrPQC2R2eIYXQhHchrHXypYFhrBDKj9l5ZB+Ic1C8NVa9cZ+eduqy4USZ06u4aE26ylMsF4kbqNje0eKHTcB0jDvPRvyKz7s3tdA6ET12KK18bAXi74ASEZRatZJVPmsU8UOShdNUdSDZjaC5O1HyysvcvNNLMZZLYbQ0k9XHFfTAHDgQQg6HzlnQl4xE+FIUURkgBI+eaGnBFmdzCoBxqbqBru6OPC3uc84luyjlPpA6J2pb80hmWK15H+1IG2/Dj+zamS/HY5K3212lYzBiCH1LAvZtNLI6nJykfza0b65w65OGrLcg3nCAcwh41geE2yD7MIJ03FLqp84h90yfewDflCL875g+HEJmXUodYDKLoY5/kTZmSYAzsjGG0RRjtsgGw0vzW8q6Xbaja6+8bHjn/m1rOeT0mlaj6pYRrmFFIEyS7HEhHrZBlsnKAnRS8yjwcBK5x1TfMKTLbbzPXD4TvQFwtq6DHUcYUIzi/j1KqOvVc8LK3sZMDIRGY5WL8ikwxA0irDKgTYaNntDXln8MZrMRHdO9dYSaqrFJ5JXGLY1NPJI/vA2H2LZF07Imq7U=
