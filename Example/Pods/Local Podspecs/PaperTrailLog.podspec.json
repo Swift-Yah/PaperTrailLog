@@ -1,0 +1,22 @@
+{
+  "name": "PaperTrailLog",
+  "version": "0.1.0",
+  "summary": "A short description of PaperTrailLog.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/PaperTrailLog",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Rafael da Silva Ferreira": "rafael@swift-yah.io"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/PaperTrailLog.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PaperTrailLog/Classes/**/*"
+}

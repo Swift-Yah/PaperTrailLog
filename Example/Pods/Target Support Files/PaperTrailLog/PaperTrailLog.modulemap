@@ -1,0 +1,6 @@
+framework module PaperTrailLog {
+  umbrella header "PaperTrailLog-umbrella.h"
+
+  export *
+  module * { export * }
+}
